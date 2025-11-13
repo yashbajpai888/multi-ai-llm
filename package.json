@@ -1,0 +1,12 @@
+{
+  "name": "multi-ai-llm",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Multi-Ai: React + Node app aggregating ChatGPT, DeepSeek, Dynamite Coders, and Gemini with elegant UI",
+  "scripts": {
+    "dev": "concurrently \"npm --prefix server run dev\" \"npm --prefix client run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
